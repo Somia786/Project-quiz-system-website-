@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz Website</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="quiz-section">
+            <div id="quiz">
+                <div class="quiz-quest">
+                    <p id="question-number">1 of 5</p>
+                    <h2 class="question" id="question">quiz question</h2>
+                </div>
+
+                <ul class="quiz-list">
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            class="answer"
+                            id="a"
+                        />
+                        <label for="a" id="option_1">quiz Option</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            class="answer"
+                            id="b"
+                        />
+                        <label for="b" id="option_2">quiz Option</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            class="answer"
+                            id="c"
+                        />
+                        <label for="c" id="option_3">quiz Option</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            class="answer"
+                            id="d"
+                        />
+                        <label for="d" id="option_4">quiz Option</label>
+                    </li>
+                </ul>
+
+                <div class="btn">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+
+                <div id="result" class="result" style="display: none">
+                    <h2 id="score"></h2>
+                    <button id="retry" style="display: none">Retry Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz Website</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="quiz-section">
+            <div id="quiz">
+                <h2 class="question" id="question">quiz question</h2>
+
+                <ul class="quiz-list">
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            class="answer"
+                            id="a"
+                        />
+                        <label for="a" id="option_1">quiz Option</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            class="answer"
+                            id="b"
+                        />
+                        <label for="b" id="option_2">quiz Option</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            class="answer"
+                            id="c"
+                        />
+                        <label for="c" id="option_3">quiz Option</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            name="answer"
+                            class="answer"
+                            id="d"
+                        />
+                        <label for="d" id="option_4">quiz Option</label>
+                    </li>
+                </ul>
+
+                <div class="btn">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+
+                <div id="result" class="result" style="display: none">
+                    <h2 id="score"></h2>
+                    <button id="retry" style="display: none">Retry Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html> -->
